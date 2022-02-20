@@ -1,0 +1,33 @@
+@import "design.css";
+
+.hidden {
+  display: none;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.background {
+  position: fixed;
+  z-index: -1;
+  margin: 0px;
+}
+
+.city, .weather {
+  position: fixed;
+  font-weight: 600;
+  color: whitesmoke;
+  font-size: 25px;
+}
+
+.city {
+  bottom: 50px;
+  left: 100px;
+}
+
+.weather {
+  bottom: 50px;
+  right: 100px;
+}
